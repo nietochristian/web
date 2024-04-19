@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Homepage</title>
+    <!-- Import the font from Google Fonts -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;700&display=swap">
+    <style>
+        body {
+            background-image: url('file:///C:/Nieto%20Web%20creation/881563d6444b370fa4ceea0c3183bb4c.gif');
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: cover;
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            color: #fff;
+            text-align: center;
+        }
+        header {
+            background-color: rgba(0, 112, 249, 0.5); /* Blue color with 50% opacity */
+            padding: 20px;
+            position: relative;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .logo {
+            max-width: 200px;
+            border: 3px solid #001f3f; /* Dark blue border */
+            border-radius: 10px; /* Rounded corners */
+            padding: 5px; /* Add some padding inside the border */
+        }
+        .quote {
+            color: white;
+            font-size: 18px;
+            text-shadow: 0 0 10px #00FFFF; /* Add glow effect */
+            position: absolute;
+            right: 20px;
+            bottom: 10px;
+        }
+        .banner {
+            max-width: 500px;
+            margin: 20px auto;
+        }
+        .name {
+            background-image: url('file:///C:/Nieto%20Web%20creation/blue%20image.gif');
+            background-repeat: repeat;
+            background-size: cover;
+            color: white;
+            padding: 10px;
+            margin: 20px auto;
+            max-width: 500px;
+            font-family: 'Roboto Mono', monospace; /* Apply the techy font */
+            text-shadow: 0 0 10px #00FFFF; /* Add glow effect */
+        }
+        p {
+            font-size: 16px;
+            line-height: 1.6;
+            background-color: rgb(1, 85, 180);
+            padding: 10px;
+            display: inline-block;
+            border-radius: 5px;
+            max-width: 80%;
+            margin: 20px auto;
+        }
+        video {
+            max-width: 80%;
+            margin: 20px auto;
+            border-radius: 10px;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+        }
+        .navigation {
+            margin-top: 20px;
+        }
+        .navigation button {
+            background-color: #00071c;
+            color: #fff;
+            border: none;
+            padding: 15px 40px; /* Adjusted padding to make the buttons bigger */
+            font-size: 50px; /* Adjusted font size to make the buttons bigger */
+            cursor: pointer;
+            margin: 0 10px;
+            background-size: cover;
+            background-position: center;
+            transition: background-color 0.3s; /* Smooth transition for background color */
+            border-radius: 30px; /* Rounded corners */
+        }
+        .navigation button.about {
+            background-image: url('file:///C:/Nieto%20Web%20creation/ABOUT%20ME.png');
+        }
+        .navigation button.portfolio {
+            background-image: url('file:///C:/Users/Asus/Pictures/Screenshots/Screenshot%202024-04-19%20215046.png');
+        }
+        .navigation button.contact {
+            background-image: url('file:///C:/Nieto%20Web%20creation/contact_thumbnail.jpg');
+        }
+        .navigation button:hover {
+            background-color: #001f3f; /* Darker color on hover */
+        }
+    </style>
+</head>
+<body>  
+    <header>
+        <img class="logo" src="file:///C:/Nieto%20Web%20creation/logo-removebg-preview.png" alt="Logo">
+        <p class="quote">"Success is not only about winning in life, But also learning hardships" - John Christian Leonard P. Nieto</p>
+    </header>
+
+    <section>
+        <img class="banner" src="file:///C:/Nieto%20Web%20creation/Level.png" alt="Banner">
+        <!-- Apply the font to the name -->
+        <h2 class="name" style="font-family: 'Roboto Mono', monospace;">John Christian Leonard P. Nieto</h2>
+        <p>Hi there! I'm John Christian Leonard P. Nieto, a passionate ICT student with a knack for creativity and problem-solving. With a keen interest in technology and its ever-evolving landscape, I thrive on exploring new concepts and pushing boundaries in the digital realm.</p>
+        <video controls width="500" height="500">
+            <source src="file:///C:/Nieto%20Web%20creation/Nieto_VideoResume.mp4" type="video/mp4">
+        
+        </video>
+    </section>
+
+    <div class="navigation">
+        <button class="about" onclick="window.location.href='file:///C:/Nieto%20Web%20creation/about/about.html'">About</button>
+        <button class="portfolio" onclick="window.location.href='file:///C:/Nieto%20Web%20creation/about/portfolio.html'">Portfolio</button>
+        <button class="contact" onclick="window.location.href='contact.html'">Contact</button>
+    </div>
+</body>
+</html>
